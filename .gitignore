@@ -1,0 +1,18 @@
+# Node.js
+node_modules/
+
+# TypeScript
+dist/
+*.js
+*.js.map
+*.d.ts
+
+# Visual Studio Code
+.vscode/
+
+# Environment
+.env
+
+# Logs
+logs/
+

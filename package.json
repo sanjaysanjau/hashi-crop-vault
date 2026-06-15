@@ -1,0 +1,32 @@
+{
+  "name": "hashi-crop-vault",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node dist/index.js",
+    "dev": "nodemon src/index.ts"
+  },
+  "keywords": [],
+  "author": "sanmuganathan",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.21",
+    "axios": "^1.15.2",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.0.1",
+    "pg-promise": "^11.5.4",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.3.2",
+    "winston": "^3.11.0",
+    "winston-daily-rotate-file": "^4.7.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/morgan": "^1.9.9"
+  }
+}
